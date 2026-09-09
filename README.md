@@ -1,29 +1,17 @@
-<!-- =====================================================
-     GitHub Profile README for Md. Robiul Islam
-     Replace every occurrence of YOUR-GITHUB-USERNAME and
-     YOUR-LINKEDIN-USERNAME before publishing.
-====================================================== -->
 
-<!-- Top animated banner -->
 <p align="center">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=220&color=0:0F172A,50:0E7490,100:22C55E&text=Md.%20Robiul%20Islam&fontColor=FFFFFF&fontSize=42&fontAlignY=36&desc=Full-Stack%20Developer%20%7C%20MERN%20%7C%20End-to-End%20Builder&descAlignY=58&animation=fadeIn" alt="Robiul Islam profile banner" />
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=220&color=0:020617,45:2563EB,75:DB2777,100:000000&text=Md.%20Robiul%20Islam&fontColor=FFFFFF&fontSize=42&fontAlignY=36&desc=Full-Stack%20Developer%20%7C%20MERN%20%7C%20End-to-End%20Builder&descAlignY=58&animation=fadeIn" alt="Robiul Islam profile banner" />
 </p>
 
 <p align="center">
   <a href="https://readme-typing-svg.demolab.com">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=2800&pause=900&color=22C55E&center=true&vCenter=true&repeat=true&width=850&height=45&lines=Building+complete+applications+from+database+to+UI;JavaScript+%7C+Python+%7C+C%2B%2B+%7C+C;React+%7C+Node.js+%7C+REST+API+%7C+GraphQL;SQL+%7C+NoSQL+%7C+Supabase+%7C+Firebase;Build+%E2%80%A2+Learn+%E2%80%A2+Optimize+%E2%80%A2+Solve" alt="Animated developer introduction" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=2800&pause=900&color=EC4899&center=true&vCenter=true&repeat=true&width=850&height=45&lines=Building+complete+applications+from+database+to+UI;JavaScript+%7C+Python+%7C+C%2B%2B+%7C+C;React+%7C+Node.js+%7C+REST+API+%7C+GraphQL;SQL+%7C+NoSQL+%7C+Supabase+%7C+Firebase;Build+%E2%80%A2+Learn+%E2%80%A2+Optimize+%E2%80%A2+Solve" alt="Animated developer introduction" />
   </a>
 </p>
 
 <p align="center">
-  <a href="https://github.com/YOUR-GITHUB-USERNAME">
-    <img src="https://komarev.com/ghpvc/?username=YOUR-GITHUB-USERNAME&label=Profile%20Views&color=22C55E&style=for-the-badge" alt="Profile views" />
-  </a>
-  <a href="https://github.com/YOUR-GITHUB-USERNAME?tab=followers">
-    <img src="https://img.shields.io/github/followers/YOUR-GITHUB-USERNAME?label=Followers&style=for-the-badge&color=0E7490" alt="GitHub followers" />
-  </a>
   <a href="mailto:robiulislam31122002@gmail.com">
-    <img src="https://img.shields.io/badge/Email-Let's%20Connect-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email Robiul" />
+    <img src="https://img.shields.io/badge/Email-Let's%20Connect-DB2777?style=for-the-badge&logo=gmail&logoColor=white" alt="Email Robiul" />
   </a>
 </p>
 
@@ -222,16 +210,9 @@ currently_exploring = {
 ## 📊 GitHub Analytics
 
 <p align="center">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=YOUR-GITHUB-USERNAME&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github" alt="Robiul's GitHub statistics" />
-  <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR-GITHUB-USERNAME&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Robiul's most used languages" />
-</p>
-
-<p align="center">
-  <img width="70%" src="https://streak-stats.demolab.com?user=YOUR-GITHUB-USERNAME&theme=tokyonight&hide_border=true" alt="Robiul's GitHub contribution streak" />
-</p>
-
-<p align="center">
-  <img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=YOUR-GITHUB-USERNAME&theme=tokyo-night&hide_border=true&area=true" alt="Robiul's contribution activity graph" />
+  <a href="https://github.com/YOUR-GITHUB-USERNAME">
+    <img src="https://github-readme-stats.vercel.app/api?username=YOUR-GITHUB-USERNAME&show_icons=true&theme=tokyonight&hide_border=true" alt="Robiul's GitHub stats" />
+  </a>
 </p>
 
 ---
@@ -254,7 +235,6 @@ currently_exploring = {
   <strong>Open to collaboration, practical projects, and meaningful engineering challenges.</strong>
 </p>
 
-<!-- Bottom animated banner -->
 <p align="center">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=140&section=footer&color=0:22C55E,50:0E7490,100:0F172A&animation=fadeIn" alt="Animated footer" />
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=140&section=footer&color=0:000000,30:DB2777,65:2563EB,100:020617&animation=fadeIn" alt="Animated footer" />
 </p>
