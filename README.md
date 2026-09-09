@@ -28,6 +28,7 @@ const robiul = {
   languages: ["JavaScript", "Python", "C++", "C"],
   frontend: ["React", "Responsive UI", "Cross-Platform Concepts"],
   backend: ["Node.js", "Express.js", "REST API", "GraphQL"],
+  pythonEcosystem: ["Django", "Flask", "FastAPI", "NumPy", "Pandas", "scikit-learn"],
   databases: ["SQL", "NoSQL", "MongoDB", "PostgreSQL"],
   services: ["Supabase", "Firebase", "Authentication"],
   tools: ["Git", "GitHub", "Postman", "Version Control"],
@@ -61,8 +62,9 @@ Problem → Architecture → Logic → Data → API → Interface → Performanc
       <h3>🌐 Full-Stack Development</h3>
       <ul>
         <li>Responsive React interfaces</li>
-        <li>Node.js and Express backends</li>
+        <li>Node.js, Express, and Python backends</li>
         <li>REST and GraphQL API design</li>
+        <li>Python web frameworks and data libraries</li>
         <li>Authentication and authorization</li>
         <li>SQL and NoSQL data modeling</li>
       </ul>
@@ -89,15 +91,29 @@ Problem → Architecture → Logic → Data → API → Interface → Performanc
   <img src="https://skillicons.dev/icons?i=js,python,cpp,c&theme=dark" alt="JavaScript, Python, C++, and C" />
 </p>
 
-### Frontend
+### Frontend and Cross-Platform
 <p>
   <img src="https://skillicons.dev/icons?i=react,html,css&theme=dark" alt="React, HTML, and CSS" />
 </p>
 
-### Backend and APIs
+### Backend, APIs, and Python Frameworks
 <p>
-  <img src="https://skillicons.dev/icons?i=nodejs,express,graphql&theme=dark" alt="Node.js, Express, and GraphQL" />
-  <img src="https://img.shields.io/badge/REST%20API-0EA5E9?style=for-the-badge&logo=swagger&logoColor=white" alt="REST API" />
+  <img src="https://skillicons.dev/icons?i=nodejs,express,graphql,postman,django,flask,fastapi&theme=dark" alt="Node.js, Express, GraphQL, REST API development with Postman, Django, Flask, and FastAPI" />
+</p>
+
+<p>
+  <img src="https://img.shields.io/badge/REST_API-2563EB?style=flat-square&logo=fastapi&logoColor=white" alt="REST API" />
+  <img src="https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white" alt="Django" />
+  <img src="https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white" alt="Flask" />
+  <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI" />
+</p>
+
+### Python Libraries and Data Tools
+<p>
+  <img src="https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white" alt="NumPy" />
+  <img src="https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white" alt="Pandas" />
+  <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white" alt="scikit-learn" />
+  <img src="https://img.shields.io/badge/Matplotlib-11557C?style=flat-square&logo=python&logoColor=white" alt="Matplotlib" />
 </p>
 
 ### Databases and Backend Services
@@ -133,7 +149,7 @@ React / Responsive Frontend
    ↓
 REST API / GraphQL
    ↓
-Node.js / Express Backend
+Node.js / Express / Python Backend
    ↓
 SQL / NoSQL / Supabase / Firebase
    ↓
@@ -150,12 +166,12 @@ Git / GitHub / Version Control
 
 A department-scoped, role-based academic exam management system built with the **MERN stack**.
 
--  Multi-role access for **Authority, Student, Faculty, ACAD, and IT**
--  Department-based data isolation across CSE, EEE, BBA, Law, and IT
--  Application deadlines and special exam scheduling
--  Automated student reminders using scheduled Node.js jobs
--  Authentication, authorization, and business-rule enforcement
--  Resolved a department-scoping issue that caused schedules to appear globally
+- 👥 Multi-role access for **Authority, Student, Faculty, ACAD, and IT**
+- 🏫 Department-based data isolation across CSE, EEE, BBA, Law, and IT
+- 📆 Application deadlines and special exam scheduling
+- ✉️ Automated student reminders using scheduled Node.js jobs
+- 🔐 Authentication, authorization, and business-rule enforcement
+- 🐛 Resolved a department-scoping issue that caused schedules to appear globally
 
 <p>
   <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React" />
@@ -170,6 +186,8 @@ A department-scoped, role-based academic exam management system built with the *
 
 - Full-stack web applications
 - REST and GraphQL APIs
+- Python-powered APIs and backend services
+- Data processing and ML-ready application features
 - Database-driven systems
 - Admin dashboards and management portals
 - Authentication and role-based access systems
@@ -190,12 +208,18 @@ currently_exploring = {
     "development": [
         "Advanced React",
         "Backend Engineering",
+        "Django, Flask, and FastAPI",
         "Production-Ready Full-Stack Applications"
     ],
     "data": [
         "Database Architecture",
         "Advanced SQL",
         "NoSQL Design Patterns"
+    ],
+    "python": [
+        "NumPy and Pandas",
+        "scikit-learn",
+        "Data Processing and Visualization"
     ],
     "future": [
         "AI Integration",
