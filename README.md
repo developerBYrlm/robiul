@@ -166,12 +166,12 @@ Git / GitHub / Version Control
 
 A department-scoped, role-based academic exam management system built with the **MERN stack**.
 
-- 👥 Multi-role access for **Authority, Student, Faculty, ACAD, and IT**
-- 🏫 Department-based data isolation across CSE, EEE, BBA, Law, and IT
-- 📆 Application deadlines and special exam scheduling
-- ✉️ Automated student reminders using scheduled Node.js jobs
-- 🔐 Authentication, authorization, and business-rule enforcement
-- 🐛 Resolved a department-scoping issue that caused schedules to appear globally
+-  Multi-role access for **Authority, Student, Faculty, ACAD, and IT**
+-  Department-based data isolation across CSE, EEE, BBA, Law, and IT
+-  Application deadlines and special exam scheduling
+-  Automated student reminders using scheduled Node.js jobs
+-  Authentication, authorization, and business-rule enforcement
+-  Resolved a department-scoping issue that caused schedules to appear globally
 
 <p>
   <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React" />
