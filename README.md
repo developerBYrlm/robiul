@@ -1,299 +1,225 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=210&section=header&text=Hi%20There,%20I'm%20Robiul&fontSize=42&fontColor=ffffff&fontAlignY=34&animation=fadeIn&desc=Full-Stack%20Developer%20%7C%20Software%20Engineer%20%7C%20End-to-End%20Builder&descAlignY=55&descSize=17" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F172A,50:0EA5E9,100:22C55E&height=220&section=header&text=Md.%20Robiul%20Islam&fontSize=42&fontColor=FFFFFF&animation=fadeIn&fontAlignY=35&desc=Full-Stack%20Developer%20%7C%20MERN%20%7C%20Cross-Platform%20Applications&descAlignY=56&descSize=18" width="100%" alt="Header" />
 
-<img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=600&size=19&duration=3000&pause=1100&color=2ECC71&center=true&vCenter=true&width=750&lines=Building+Web+%26+App+Products+End-to-End;JavaScript+%7C+Python+%7C+C%2B%2B+%7C+C;MERN+Stack+%7C+REST+%7C+GraphQL;SQL+%7C+NoSQL+%7C+Supabase+%7C+Firebase;Turning+Ideas+Into+Working+Software" alt="Typing SVG" />
-
-<br/>
-
-<a href="https://github.com/YOUR-GITHUB-USERNAME">
-  <img src="https://img.shields.io/badge/GitHub-18181B?style=for-the-badge&logo=github&logoColor=white" />
-</a>
-<a href="mailto:robiulislam31122002@gmail.com">
-  <img src="https://img.shields.io/badge/Email-Contact%20Me-18181B?style=for-the-badge&logo=gmail&logoColor=white" />
-</a>
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=1000&color=22C55E&center=true&vCenter=true&width=760&lines=Building+complete+products+from+idea+to+deployment;JavaScript+%7C+Python+%7C+C%2B%2B+%7C+C;React+%7C+Node.js+%7C+REST+%7C+GraphQL;SQL+%7C+NoSQL+%7C+Supabase+%7C+Firebase" alt="Typing introduction" />
 
 <br/><br/>
 
-<img src="https://komarev.com/ghpvc/?username=YOUR-GITHUB-USERNAME&label=PROFILE%20VIEWS&color=2ECC71&style=for-the-badge" />
-<img src="https://img.shields.io/github/followers/YOUR-GITHUB-USERNAME?label=FOLLOWERS&style=for-the-badge&color=2ECC71" />
+<a href="mailto:robiulislam31122002@gmail.com"><img src="https://img.shields.io/badge/Email-Contact_Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+<a href="https://github.com/developerBYrlm"><img src="https://img.shields.io/badge/GitHub-developerBYrlm-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
+<img src="https://komarev.com/ghpvc/?username=developerBYrlm&label=Profile%20Views&color=0EA5E9&style=for-the-badge" alt="Profile views" />
+<img src="https://img.shields.io/github/followers/developerBYrlm?label=Followers&style=for-the-badge&color=22C55E&logo=github" alt="GitHub followers" />
 
 </div>
 
----
-
-# About Me
+## 👨‍💻 About Me
 
 ```javascript
 const robiul = {
-    role: "Full-Stack Developer",
-    background: "Computer Science",
+  role: "Full-Stack Developer",
+  background: "Computer Science",
 
-    languages: [
-        "JavaScript",
-        "Python",
-        "C++",
-        "C"
-    ],
+  languages: ["JavaScript", "Python", "C++", "C"],
+  frontend: ["React", "Responsive UI", "Cross-Platform Development"],
+  backend: ["Node.js", "Express.js", "REST API", "GraphQL", "MERN Stack"],
+  databases: ["SQL", "NoSQL", "MongoDB", "Supabase", "Firebase"],
+  tools: ["Git", "GitHub", "Postman", "Version Control"],
 
-    development: {
-        frontend: ["React", "Responsive UI"],
-        backend: ["Node.js", "Express.js"],
-        architecture: ["MERN", "REST API", "GraphQL"],
-        databases: ["SQL", "NoSQL"],
-        platforms: ["Supabase", "Firebase"],
-        versionControl: ["Git", "GitHub"]
-    },
-
-    approach: "End-to-end development",
-    mindset: "Build • Learn • Improve • Repeat"
+  mindset: ["Build", "Learn", "Optimize", "Solve"]
 };
 ```
 
-I enjoy building complete software systems rather than working on only a single layer.
+I enjoy building **complete applications** rather than focusing on only one layer of development. From designing responsive interfaces and APIs to handling databases, authentication, backend logic, deployment, and version control, I like understanding how every part of a system connects.
 
-From **interface design and frontend development** to **backend logic, APIs, databases, authentication, integrations, and version control**, I like understanding how the whole system works together.
+- 💻 Build end-to-end web and cross-platform applications
+- 🏗️ Work with both relational and non-relational databases
+- 🔌 Design and integrate REST and GraphQL APIs
+- 🔐 Implement authentication, authorization, and business logic
+- 🌱 Continuously explore scalable architecture and better engineering practices
+- 📫 Reach me at **[robiulislam31122002@gmail.com](mailto:robiulislam31122002@gmail.com)**
 
 ---
 
-# Tech Stack
+## 🛠️ Technical Stack
 
 ### Languages
 
 <p>
-  <img src="https://skillicons.dev/icons?i=js,py,cpp,c" />
+  <img src="https://skillicons.dev/icons?i=js,python,cpp,c&theme=dark" alt="JavaScript, Python, C++ and C" />
 </p>
 
 ### Frontend & Cross-Platform
 
 <p>
-  <img src="https://skillicons.dev/icons?i=react,html,css" />
+  <img src="https://skillicons.dev/icons?i=react,html,css&theme=dark" alt="React, HTML and CSS" />
 </p>
 
-### Backend & API Development
+### Backend & APIs
 
 <p>
-  <img src="https://skillicons.dev/icons?i=nodejs,express" />
+  <img src="https://skillicons.dev/icons?i=nodejs,express&theme=dark" alt="Node.js and Express.js" />
 </p>
 
 <p>
-  <img src="https://img.shields.io/badge/REST%20API-02569B?style=flat-square&logo=swagger&logoColor=white" />
-  <img src="https://img.shields.io/badge/GraphQL-E10098?style=flat-square&logo=graphql&logoColor=white" />
-  <img src="https://img.shields.io/badge/MERN-000000?style=flat-square&logo=mongodb&logoColor=white" />
+  <img src="https://img.shields.io/badge/REST_API-02569B?style=flat-square&logo=swagger&logoColor=white" alt="REST API" />
+  <img src="https://img.shields.io/badge/GraphQL-E10098?style=flat-square&logo=graphql&logoColor=white" alt="GraphQL" />
+  <img src="https://img.shields.io/badge/MERN-3FA037?style=flat-square&logo=mongodb&logoColor=white" alt="MERN Stack" />
+  <img src="https://img.shields.io/badge/Authentication-334155?style=flat-square&logo=auth0&logoColor=white" alt="Authentication" />
 </p>
 
 ### Databases & Backend Services
 
 <p>
-  <img src="https://skillicons.dev/icons?i=mongodb,mysql,postgresql" />
+  <img src="https://skillicons.dev/icons?i=mongodb,mysql,postgres,supabase,firebase&theme=dark" alt="MongoDB, MySQL, PostgreSQL, Supabase and Firebase" />
 </p>
 
-<p>
-  <img src="https://img.shields.io/badge/NoSQL-18181B?style=flat-square" />
-  <img src="https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=white" />
-  <img src="https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black" />
-</p>
-
-### Tools
+### Tools & Workflow
 
 <p>
-  <img src="https://skillicons.dev/icons?i=git,github,vscode,postman" />
+  <img src="https://skillicons.dev/icons?i=git,github,vscode,postman,npm&theme=dark" alt="Git, GitHub, VS Code, Postman and npm" />
 </p>
 
 ---
 
-# How I Build
+## 🔥 Development Focus
 
 ```text
-                         IDEA
-                           │
-                           ▼
-                    SYSTEM DESIGN
-                           │
-                           ▼
-                 ┌───────────────────┐
-                 │      FRONTEND     │
-                 │  React / UI / UX  │
-                 └─────────┬─────────┘
-                           │
-                           ▼
-                 ┌───────────────────┐
-                 │        API        │
-                 │ REST / GraphQL    │
-                 └─────────┬─────────┘
-                           │
-                           ▼
-                 ┌───────────────────┐
-                 │      BACKEND      │
-                 │ Node / Express    │
-                 └─────────┬─────────┘
-                           │
-                           ▼
-                 ┌───────────────────┐
-                 │      DATA         │
-                 │ SQL / NoSQL / BaaS│
-                 └─────────┬─────────┘
-                           │
-                           ▼
-                 ┌───────────────────┐
-                 │   AUTH & LOGIC    │
-                 └─────────┬─────────┘
-                           │
-                           ▼
-                 ┌───────────────────┐
-                 │   GIT / GITHUB    │
-                 │ Version Control   │
-                 └───────────────────┘
+┌──────────────────────────────────────────────────────────────┐
+│                    END-TO-END DEVELOPMENT                    │
+├──────────────────────────────────────────────────────────────┤
+│                                                              │
+│   Idea & Requirements                                        │
+│           ↓                                                  │
+│   Architecture & Data Design                                 │
+│           ↓                                                  │
+│   React / Responsive Interface                               │
+│           ↓                                                  │
+│   REST API / GraphQL                                         │
+│           ↓                                                  │
+│   Node.js / Express.js                                       │
+│           ↓                                                  │
+│   SQL / NoSQL / Supabase / Firebase                          │
+│           ↓                                                  │
+│   Authentication & Business Logic                            │
+│           ↓                                                  │
+│   Testing / Git / Deployment                                 │
+│                                                              │
+└──────────────────────────────────────────────────────────────┘
 ```
 
-I focus on building software with a simple principle:
-
-> **Understand the problem → design the system → write the code → connect the data → ship the product.**
+I like working across the entire development pipeline: **idea → architecture → implementation → data → API → interface → deployment**.
 
 ---
 
-# What I Work On
+## 🧩 What I Can Build
 
 ```text
-Web Applications
-        │
-        ├── Business Applications
-        ├── Management Systems
-        ├── Student / Education Platforms
-        ├── Admin Dashboards
-        └── Database-driven Systems
-
-APIs & Services
-        │
-        ├── REST APIs
-        ├── GraphQL APIs
-        ├── Authentication
-        └── Third-party Integrations
-
-Application Development
-        │
-        ├── React-based Interfaces
-        └── Cross-Platform Application Concepts
+Web Applications              REST & GraphQL APIs
+Admin Dashboards              Database-Driven Systems
+Authentication Systems        Student Management Systems
+Business Applications         Cross-Platform Applications
 ```
 
 ---
 
-# Featured Project
+## 🚀 Featured Project
 
-## Exam Management Portal
+### Exam Management Portal · MERN Stack
 
-**MERN Stack · Role-Based System · Automated Scheduling**
+<p>
+  <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" alt="React" />
+  <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white" alt="Node.js" />
+  <img src="https://img.shields.io/badge/Express.js-000000?style=flat-square&logo=express&logoColor=white" alt="Express.js" />
+  <img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white" alt="MongoDB" />
+  <img src="https://img.shields.io/badge/node--cron-339933?style=flat-square&logo=nodedotjs&logoColor=white" alt="node-cron" />
+</p>
 
-A role-based academic examination management system designed to handle special-exam applications, scheduling, approvals, and department-level workflows.
+A role-based exam scheduling and management system designed for academic departments.
 
-### Core Features
-
-* **Multi-role access control** for different academic and administrative users
-* **Department-based workflows** for academic operations
-* **Special-exam application management**
-* **Automated email reminders** using scheduled backend jobs
-* **Separate academic workflows** for students, faculty, authority, ACAD and IT roles
-* **Database-driven scheduling and application processing**
-* Production-level debugging and isolation of department-specific data
-
-### Stack
-
-`React` `Node.js` `Express.js` `MongoDB` `REST API` `node-cron`
+- Multi-role access for authority, students, faculty, ACAD, and IT
+- Department-scoped scheduling and deadline management
+- Automated student reminder emails using scheduled jobs
+- Isolated department data and role-aware application flows
+- Responsive interfaces connected to backend APIs and MongoDB
 
 ---
 
-# Development Philosophy
+## 📚 Currently Exploring
 
-```javascript
-function development() {
-    const priorities = [
-        "Understand the problem",
-        "Design before implementation",
-        "Write maintainable code",
-        "Keep data structured",
-        "Build reliable APIs",
-        "Create usable interfaces",
-        "Improve through iteration"
-    ];
-
-    return priorities;
+```python
+areas = {
+    "architecture": [
+        "Scalable Application Design",
+        "Clean Architecture",
+        "Better API Design"
+    ],
+    "development": [
+        "Advanced React",
+        "Backend Engineering",
+        "Full-Stack Applications"
+    ],
+    "data": [
+        "Database Architecture",
+        "SQL",
+        "NoSQL"
+    ],
+    "future": [
+        "AI Integration",
+        "Machine Learning",
+        "Advanced Cross-Platform Development"
+    ]
 }
 ```
 
-> **Don't just learn a technology. Understand where it belongs in the system.**
-
-Good software is not only about making something work.
-
-It's about making it **understandable, maintainable, scalable, and useful.**
-
 ---
 
-# Currently Exploring
+## ⚡ Development Philosophy
 
-```text
-┌───────────────────────────────────────────────┐
-│              CURRENT DIRECTION                │
-├───────────────────────────────────────────────┤
-│                                               │
-│  Advanced Full-Stack Development              │
-│  API Architecture & Integration               │
-│  Database Design & Optimization               │
-│  Cross-Platform Application Development       │
-│  Software Architecture                        │
-│  AI-powered Applications                      │
-│  Machine Learning                             │
-│                                               │
-└───────────────────────────────────────────────┘
-```
+> **Do not just learn a technology. Understand how it fits into the system.**
 
----
-
-# GitHub Statistics
+Good development is not only about writing code. It is about understanding the complete path:
 
 <div align="center">
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=YOUR-GITHUB-USERNAME&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" />
-
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR-GITHUB-USERNAME&layout=compact&theme=tokyonight&hide_border=true" />
-
-<br/>
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=YOUR-GITHUB-USERNAME&theme=tokyonight&hide_border=true" />
-
-<br/>
-
-<img src="https://github-profile-trophy.vercel.app/?username=YOUR-GITHUB-USERNAME&theme=tokyonight&no-frame=true&row=1&column=6&margin-w=12" />
+**Problem → Architecture → Logic → Data → API → Interface → Performance**
 
 </div>
 
 ---
 
-# Let's Connect
+## 📊 GitHub Analytics
 
 <div align="center">
 
-<a href="mailto:robiulislam31122002@gmail.com">
-  <img src="https://img.shields.io/badge/Gmail-Contact%20Me-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
-</a>
-
-<a href="https://github.com/YOUR-GITHUB-USERNAME">
-  <img src="https://img.shields.io/badge/GitHub-Follow%20Me-181717?style=for-the-badge&logo=github&logoColor=white" />
-</a>
-
-<a href="#">
-  <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
-</a>
-
-</div>
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=developerBYrlm&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true" alt="GitHub statistics" />
+<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=developerBYrlm&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Most used languages" />
 
 <br/>
 
-<div align="center">
-
-### `Code → Build → Learn → Improve`
-
-<sub>Thanks for visiting my profile.</sub>
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=developerBYrlm&theme=tokyonight&hide_border=true" alt="GitHub contribution streak" />
 
 </div>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=110&section=footer" width="100%"/>
+> GitHub statistics reflect activity in public repositories and do not fully represent overall technical proficiency.
+
+---
+
+## 🤝 Let's Connect
+
+<div align="center">
+
+I am open to practical software projects, technical collaboration, and opportunities to build useful digital products.
+
+<br/>
+
+<a href="mailto:robiulislam31122002@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" /></a>
+<a href="https://github.com/developerBYrlm"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
+
+<br/><br/>
+
+**Build thoughtfully · Write clearly · Improve continuously**
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F172A,50:0EA5E9,100:22C55E&height=120&section=footer" width="100%" alt="Footer" />
+
+</div>
