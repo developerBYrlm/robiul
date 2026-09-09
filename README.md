@@ -1,299 +1,469 @@
-<div align="center">
+<!-- =============================== -->
+<!--        ANIMATED HEADER           -->
+<!-- =============================== -->
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=210&section=header&text=Hi%20There,%20I'm%20Robiul&fontSize=42&fontColor=ffffff&fontAlignY=34&animation=fadeIn&desc=Full-Stack%20Developer%20%7C%20Software%20Engineer%20%7C%20End-to-End%20Builder&descAlignY=55&descSize=17" width="100%"/>
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,50:123C69,100:00C896&height=220&section=header&text=Robiul%20Islam&fontSize=48&fontColor=F8FAFC&animation=fadeIn&fontAlignY=35&desc=Full-Stack%20Developer%20%7C%20Web%20%26%20Cross-Platform%20Applications&descAlignY=58&descSize=18" alt="Animated header" />
+</p>
 
-<img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=600&size=19&duration=3000&pause=1100&color=2ECC71&center=true&vCenter=true&width=750&lines=Building+Web+%26+App+Products+End-to-End;JavaScript+%7C+Python+%7C+C%2B%2B+%7C+C;MERN+Stack+%7C+REST+%7C+GraphQL;SQL+%7C+NoSQL+%7C+Supabase+%7C+Firebase;Turning+Ideas+Into+Working+Software" alt="Typing SVG" />
+<p align="center">
+  <img
+    src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=600&size=21&duration=2800&pause=900&color=00C896&center=true&vCenter=true&repeat=true&width=780&height=55&lines=Building+Applications+End-to-End;JavaScript+%7C+Python+%7C+C%2B%2B+%7C+C;React+%7C+Node.js+%7C+MERN+Stack;REST+%26+GraphQL+APIs+%7C+SQL+%26+NoSQL;Authentication+%7C+Business+Logic+%7C+Database+Design"
+    alt="Typing SVG"
+  />
+</p>
 
-<br/>
+<p align="center">
+  <a href="https://github.com/YOUR-GITHUB-USERNAME">
+    <img src="https://komarev.com/ghpvc/?username=YOUR-GITHUB-USERNAME&label=PROFILE%20VIEWS&color=00C896&style=flat-square" alt="Profile views" />
+  </a>
+  <a href="https://github.com/YOUR-GITHUB-USERNAME?tab=followers">
+    <img src="https://img.shields.io/github/followers/YOUR-GITHUB-USERNAME?label=FOLLOWERS&style=flat-square&color=123C69" alt="GitHub followers" />
+  </a>
+  <a href="https://github.com/YOUR-GITHUB-USERNAME">
+    <img src="https://img.shields.io/github/stars/YOUR-GITHUB-USERNAME?affiliations=OWNER&style=flat-square&color=00C896&label=TOTAL%20STARS" alt="GitHub stars" />
+  </a>
+</p>
 
-<a href="https://github.com/YOUR-GITHUB-USERNAME">
-  <img src="https://img.shields.io/badge/GitHub-18181B?style=for-the-badge&logo=github&logoColor=white" />
-</a>
-<a href="mailto:robiulislam31122002@gmail.com">
-  <img src="https://img.shields.io/badge/Email-Contact%20Me-18181B?style=for-the-badge&logo=gmail&logoColor=white" />
-</a>
+<br />
 
-<br/><br/>
+<!-- =============================== -->
+<!--           ABOUT ME               -->
+<!-- =============================== -->
 
-<img src="https://komarev.com/ghpvc/?username=YOUR-GITHUB-USERNAME&label=PROFILE%20VIEWS&color=2ECC71&style=for-the-badge" />
-<img src="https://img.shields.io/github/followers/YOUR-GITHUB-USERNAME?label=FOLLOWERS&style=for-the-badge&color=2ECC71" />
-
-</div>
-
----
-
-# About Me
+## 👨‍💻 About Me
 
 ```javascript
 const robiul = {
-    role: "Full-Stack Developer",
-    background: "Computer Science",
+  role: "Full-Stack Developer",
+  background: "Computer Science",
 
-    languages: [
-        "JavaScript",
-        "Python",
-        "C++",
-        "C"
-    ],
+  mindset: [
+    "Understand the problem",
+    "Design the system",
+    "Build the solution",
+    "Optimize what matters"
+  ],
 
-    development: {
-        frontend: ["React", "Responsive UI"],
-        backend: ["Node.js", "Express.js"],
-        architecture: ["MERN", "REST API", "GraphQL"],
-        databases: ["SQL", "NoSQL"],
-        platforms: ["Supabase", "Firebase"],
-        versionControl: ["Git", "GitHub"]
-    },
+  coreStack: {
+    languages: ["JavaScript", "Python", "C++", "C"],
+    frontend: ["React", "Responsive UI", "Cross-Platform Concepts"],
+    backend: ["Node.js", "MERN", "REST API", "GraphQL"],
+    data: ["SQL", "NoSQL", "Supabase", "Firebase"],
+    engineering: ["Authentication", "API Integration", "Git", "GitHub", "Version Control"]
+  },
 
-    approach: "End-to-end development",
-    mindset: "Build • Learn • Improve • Repeat"
+  philosophy:
+    "Don't just learn the technology — understand how it fits into the system."
 };
 ```
 
-I enjoy building complete software systems rather than working on only a single layer.
+I enjoy building **complete applications rather than working on only one layer**.
 
-From **interface design and frontend development** to **backend logic, APIs, databases, authentication, integrations, and version control**, I like understanding how the whole system works together.
+My development work can span the entire application lifecycle:
 
----
+**Idea → Architecture → UI → API → Business Logic → Database → Authentication → Integration → Deployment → Version Control**
 
-# Tech Stack
-
-### Languages
-
-<p>
-  <img src="https://skillicons.dev/icons?i=js,py,cpp,c" />
-</p>
-
-### Frontend & Cross-Platform
-
-<p>
-  <img src="https://skillicons.dev/icons?i=react,html,css" />
-</p>
-
-### Backend & API Development
-
-<p>
-  <img src="https://skillicons.dev/icons?i=nodejs,express" />
-</p>
-
-<p>
-  <img src="https://img.shields.io/badge/REST%20API-02569B?style=flat-square&logo=swagger&logoColor=white" />
-  <img src="https://img.shields.io/badge/GraphQL-E10098?style=flat-square&logo=graphql&logoColor=white" />
-  <img src="https://img.shields.io/badge/MERN-000000?style=flat-square&logo=mongodb&logoColor=white" />
-</p>
-
-### Databases & Backend Services
-
-<p>
-  <img src="https://skillicons.dev/icons?i=mongodb,mysql,postgresql" />
-</p>
-
-<p>
-  <img src="https://img.shields.io/badge/NoSQL-18181B?style=flat-square" />
-  <img src="https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=white" />
-  <img src="https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black" />
-</p>
-
-### Tools
-
-<p>
-  <img src="https://skillicons.dev/icons?i=git,github,vscode,postman" />
-</p>
+That means I am comfortable moving between the frontend, backend, database, and the engineering decisions that connect them.
 
 ---
 
-# How I Build
+## 🧠 How I Think About Development
+
+I don't see an application as a collection of separate files.
+
+I see it as a system:
 
 ```text
-                         IDEA
-                           │
-                           ▼
-                    SYSTEM DESIGN
-                           │
-                           ▼
-                 ┌───────────────────┐
-                 │      FRONTEND     │
-                 │  React / UI / UX  │
-                 └─────────┬─────────┘
-                           │
-                           ▼
-                 ┌───────────────────┐
-                 │        API        │
-                 │ REST / GraphQL    │
-                 └─────────┬─────────┘
-                           │
-                           ▼
-                 ┌───────────────────┐
-                 │      BACKEND      │
-                 │ Node / Express    │
-                 └─────────┬─────────┘
-                           │
-                           ▼
-                 ┌───────────────────┐
-                 │      DATA         │
-                 │ SQL / NoSQL / BaaS│
-                 └─────────┬─────────┘
-                           │
-                           ▼
-                 ┌───────────────────┐
-                 │   AUTH & LOGIC    │
-                 └─────────┬─────────┘
-                           │
-                           ▼
-                 ┌───────────────────┐
-                 │   GIT / GITHUB    │
-                 │ Version Control   │
-                 └───────────────────┘
+                  ┌─────────────────────┐
+                  │       USER          │
+                  └──────────┬──────────┘
+                             │
+                             ▼
+                  ┌─────────────────────┐
+                  │     REACT / UI      │
+                  │ UX • State • Forms  │
+                  └──────────┬──────────┘
+                             │
+                       HTTP / API
+                             │
+                             ▼
+                  ┌─────────────────────┐
+                  │   NODE / EXPRESS    │
+                  │ Routes • Controllers│
+                  │ Validation • Logic  │
+                  └──────────┬──────────┘
+                             │
+              ┌──────────────┼──────────────┐
+              │              │              │
+              ▼              ▼              ▼
+        ┌──────────┐   ┌──────────┐   ┌───────────┐
+        │   AUTH   │   │ DATABASE │   │  SERVICES │
+        │ JWT /    │   │ SQL /    │   │ Firebase  │
+        │ RBAC     │   │ NoSQL    │   │ Supabase  │
+        └──────────┘   └──────────┘   └───────────┘
+                             │
+                             ▼
+                  ┌─────────────────────┐
+                  │      RESPONSE       │
+                  │ Data • Errors • UX  │
+                  └─────────────────────┘
 ```
 
-I focus on building software with a simple principle:
-
-> **Understand the problem → design the system → write the code → connect the data → ship the product.**
-
----
-
-# What I Work On
+### 🔁 My usual development flow
 
 ```text
-Web Applications
-        │
-        ├── Business Applications
-        ├── Management Systems
-        ├── Student / Education Platforms
-        ├── Admin Dashboards
-        └── Database-driven Systems
-
-APIs & Services
-        │
-        ├── REST APIs
-        ├── GraphQL APIs
-        ├── Authentication
-        └── Third-party Integrations
-
-Application Development
-        │
-        ├── React-based Interfaces
-        └── Cross-Platform Application Concepts
+Problem
+   ↓
+Requirements
+   ↓
+System / Data Design
+   ↓
+API & Backend Logic
+   ↓
+Database Integration
+   ↓
+Frontend Implementation
+   ↓
+Authentication & Authorization
+   ↓
+Testing / Debugging
+   ↓
+Deployment
+   ↓
+Git / Version Control
 ```
 
 ---
 
-# Featured Project
+## 🛠️ Tech Stack
 
-## Exam Management Portal
+### 💻 Languages
 
-**MERN Stack · Role-Based System · Automated Scheduling**
+<p>
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=111111" />
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=ffffff" />
+  <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=cplusplus&logoColor=ffffff" />
+  <img src="https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=111111" />
+</p>
 
-A role-based academic examination management system designed to handle special-exam applications, scheduling, approvals, and department-level workflows.
+### 🎨 Frontend & Cross-Platform
 
-### Core Features
+<p>
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
+  <img src="https://img.shields.io/badge/React%20Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=ffffff" />
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=ffffff" />
+  <img src="https://img.shields.io/badge/Responsive%20UI-111827?style=for-the-badge&logo=googlechrome&logoColor=ffffff" />
+</p>
 
-* **Multi-role access control** for different academic and administrative users
-* **Department-based workflows** for academic operations
-* **Special-exam application management**
-* **Automated email reminders** using scheduled backend jobs
-* **Separate academic workflows** for students, faculty, authority, ACAD and IT roles
-* **Database-driven scheduling and application processing**
-* Production-level debugging and isolation of department-specific data
+### ⚙️ Backend & APIs
 
-### Stack
+<p>
+  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=ffffff" />
+  <img src="https://img.shields.io/badge/Express.js-111111?style=for-the-badge&logo=express&logoColor=ffffff" />
+  <img src="https://img.shields.io/badge/REST%20API-02569B?style=for-the-badge&logo=swagger&logoColor=ffffff" />
+  <img src="https://img.shields.io/badge/GraphQL-E10098?style=for-the-badge&logo=graphql&logoColor=ffffff" />
+  <img src="https://img.shields.io/badge/API%20Integration-374151?style=for-the-badge&logo=postman&logoColor=FF6C37" />
+</p>
 
-`React` `Node.js` `Express.js` `MongoDB` `REST API` `node-cron`
+### 🗄️ Databases & Backend Services
+
+<p>
+  <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=ffffff" />
+  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=ffffff" />
+  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=ffffff" />
+  <img src="https://img.shields.io/badge/Supabase-3FCF8E?style=for-the-badge&logo=supabase&logoColor=ffffff" />
+  <img src="https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=111111" />
+</p>
+
+### 🔐 Application Engineering
+
+```text
+Authentication
+Authorization / Role-Based Access
+Business Logic
+API Integration
+Database Design
+CRUD Systems
+Validation
+Error Handling
+Responsive Development
+```
+
+### 🧰 Tools
+
+<p>
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=ffffff" />
+  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=ffffff" />
+  <img src="https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=ffffff" />
+  <img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=ffffff" />
+</p>
 
 ---
 
-# Development Philosophy
+## 🚀 What I Can Build
 
-```javascript
-function development() {
-    const priorities = [
-        "Understand the problem",
-        "Design before implementation",
-        "Write maintainable code",
-        "Keep data structured",
-        "Build reliable APIs",
-        "Create usable interfaces",
-        "Improve through iteration"
-    ];
+```text
+┌─────────────────────────────────────────────────────────────┐
+│                     APPLICATION TYPES                       │
+├─────────────────────────────────────────────────────────────┤
+│                                                             │
+│  🌐 Web Applications        📱 Cross-Platform Applications  │
+│  ⚙️ REST / GraphQL APIs     🗄️ Database-Driven Systems     │
+│  🔐 Authentication Systems  👥 Role-Based Platforms        │
+│  📊 Admin Dashboards        🎓 Student / Academic Systems   │
+│  🏢 Business Applications   🔄 CRUD & Workflow Systems     │
+│                                                             │
+└─────────────────────────────────────────────────────────────┘
+```
 
-    return priorities;
+The technology can change depending on the problem.
+
+The important part is designing the right **architecture, data flow, and user experience** for the application.
+
+---
+
+## 🏗️ Featured Project
+
+### 🗓️ Exam Management Portal
+
+**MERN Stack | Role-Based Application | Department-Aware Workflow**
+
+A full-stack academic management platform designed around special-exam workflows and multiple user roles.
+
+#### System Highlights
+
+```text
+                           ┌───────────────┐
+                           │   AUTHORITY   │
+                           └───────┬───────┘
+                                   │
+                                   ▼
+┌───────────┐               ┌───────────────┐
+│  STUDENT  │ ─────────────▶│ APPLICATION   │
+└───────────┘               │    WORKFLOW   │
+                            └───────┬───────┘
+                                    │
+                    ┌───────────────┼───────────────┐
+                    ▼               ▼               ▼
+               ┌─────────┐    ┌─────────┐    ┌─────────┐
+               │ FACULTY │    │  ACAD   │    │   IT    │
+               └─────────┘    └─────────┘    └─────────┘
+                                    │
+                                    ▼
+                            ┌───────────────┐
+                            │   DATABASE    │
+                            │ MongoDB /     │
+                            │ Mongoose      │
+                            └───────────────┘
+```
+
+#### Key Engineering Work
+
+- Multi-role access control across **Authority, Student, Faculty, ACAD, and IT**
+- Department-aware workflows across **CSE, EEE, BBA, Law, and IT**
+- Application deadlines and special-exam scheduling
+- Backend API integration with frontend workflows
+- MongoDB/Mongoose data modeling
+- Authentication and authorization logic
+- Automated reminder emails using scheduled backend jobs
+- Debugged and fixed a real issue where department-specific schedules were leaking across the global scope
+
+> The goal was not just to make pages work — it was to make the **whole workflow behave like a real system**.
+
+---
+
+## 🔎 Engineering Focus
+
+### Frontend
+
+```text
+React
+ ├── Component-Based UI
+ ├── Responsive Interfaces
+ ├── Forms & Validation
+ ├── API Consumption
+ └── User-Focused Workflows
+```
+
+### Backend
+
+```text
+Node.js / Express
+ ├── Routes
+ ├── Controllers
+ ├── Middleware
+ ├── Authentication
+ ├── Authorization
+ ├── Business Logic
+ └── API Responses / Error Handling
+```
+
+### Data Layer
+
+```text
+SQL
+ ├── Relational Data
+ ├── Queries
+ └── Structured Relationships
+
+NoSQL
+ ├── MongoDB
+ ├── Document Modeling
+ └── Flexible Application Data
+
+BaaS
+ ├── Supabase
+ └── Firebase
+```
+
+### Version Control
+
+```bash
+git init
+git add .
+git commit -m "build: initial application"
+git branch
+git pull
+git push
+```
+
+I use Git not only to store code, but to manage the development process and keep application changes traceable.
+
+---
+
+## 📚 Currently Exploring
+
+```python
+learning = {
+    "react": [
+        "Advanced component architecture",
+        "Better state and UI patterns"
+    ],
+
+    "backend": [
+        "Scalable API design",
+        "Cleaner service architecture",
+        "Better backend engineering practices"
+    ],
+
+    "data": [
+        "Database architecture",
+        "SQL",
+        "NoSQL"
+    ],
+
+    "ai": [
+        "AI integration",
+        "Machine Learning fundamentals",
+        "AI-powered application ideas"
+    ],
+
+    "future": [
+        "Advanced cross-platform development"
+    ]
 }
 ```
 
-> **Don't just learn a technology. Understand where it belongs in the system.**
+---
 
-Good software is not only about making something work.
+## ⚡ Development Philosophy
 
-It's about making it **understandable, maintainable, scalable, and useful.**
+> **Don't just learn the technology — understand how the technology fits into the system.**
+
+For me, good development is more than writing code.
+
+```text
+Problem
+  ↓
+Understand
+  ↓
+Design
+  ↓
+Implement
+  ↓
+Connect
+  ↓
+Test
+  ↓
+Optimize
+  ↓
+Ship
+```
+
+I care about the connections between **UI, APIs, data, authentication, business rules, and the overall user flow**.
 
 ---
 
-# Currently Exploring
+## 📊 GitHub Analytics
+
+<p align="center">
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=YOUR-GITHUB-USERNAME&show_icons=true&theme=github_dark&hide_border=true&rank_icon=github" alt="GitHub stats" />
+  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR-GITHUB-USERNAME&layout=compact&theme=github_dark&hide_border=true" alt="Top languages" />
+</p>
+
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=YOUR-GITHUB-USERNAME&theme=github-dark-blue&hide_border=true" alt="GitHub streak" />
+</p>
+
+---
+
+## 📈 Contribution Activity
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=YOUR-GITHUB-USERNAME&theme=github-compact&hide_border=true&area=true" alt="GitHub activity graph" />
+</p>
+
+---
+
+## 💬 Ask Me About
 
 ```text
-┌───────────────────────────────────────────────┐
-│              CURRENT DIRECTION                │
-├───────────────────────────────────────────────┤
-│                                               │
-│  Advanced Full-Stack Development              │
-│  API Architecture & Integration               │
-│  Database Design & Optimization               │
-│  Cross-Platform Application Development       │
-│  Software Architecture                        │
-│  AI-powered Applications                      │
-│  Machine Learning                             │
-│                                               │
-└───────────────────────────────────────────────┘
+→ Full-Stack Web Development
+→ MERN Stack
+→ React
+→ Node.js
+→ REST APIs
+→ GraphQL
+→ SQL / NoSQL
+→ Supabase / Firebase
+→ Authentication & Authorization
+→ Git & GitHub
+→ Database-Driven Applications
+→ Cross-Platform Application Concepts
+→ AI-Powered Application Ideas
 ```
 
 ---
 
-# GitHub Statistics
+## 🤝 Let's Build Something
 
-<div align="center">
+I like turning ideas into working systems — whether that means a web application, an internal business platform, an academic management system, an API, or a cross-platform application.
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=YOUR-GITHUB-USERNAME&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" />
-
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR-GITHUB-USERNAME&layout=compact&theme=tokyonight&hide_border=true" />
-
-<br/>
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=YOUR-GITHUB-USERNAME&theme=tokyonight&hide_border=true" />
-
-<br/>
-
-<img src="https://github-profile-trophy.vercel.app/?username=YOUR-GITHUB-USERNAME&theme=tokyonight&no-frame=true&row=1&column=6&margin-w=12" />
-
-</div>
+<p align="center">
+  <a href="mailto:robiulislam31122002@gmail.com">
+    <img src="https://img.shields.io/badge/Email-Contact%20Me-D14836?style=for-the-badge&logo=gmail&logoColor=ffffff" alt="Email" />
+  </a>
+  <a href="https://github.com/YOUR-GITHUB-USERNAME">
+    <img src="https://img.shields.io/badge/GitHub-Follow%20My%20Work-181717?style=for-the-badge&logo=github&logoColor=ffffff" alt="GitHub" />
+  </a>
+</p>
 
 ---
 
-# Let's Connect
+<!-- =============================== -->
+<!--         ANIMATED FOOTER         -->
+<!-- =============================== -->
 
-<div align="center">
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=500&size=17&duration=2600&pause=1000&color=58A6FF&center=true&vCenter=true&repeat=true&width=650&height=40&lines=Build.+Learn.+Optimize.+Solve.;One+system+at+a+time.;Thanks+for+stopping+by+%F0%9F%91%8B" alt="Footer typing animation" />
+</p>
 
-<a href="mailto:robiulislam31122002@gmail.com">
-  <img src="https://img.shields.io/badge/Gmail-Contact%20Me-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
-</a>
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00C896,50:123C69,100:0D1117&height=130&section=footer&animation=fadeIn" alt="Animated footer" />
+</p>
 
-<a href="https://github.com/YOUR-GITHUB-USERNAME">
-  <img src="https://img.shields.io/badge/GitHub-Follow%20Me-181717?style=for-the-badge&logo=github&logoColor=white" />
-</a>
-
-<a href="#">
-  <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
-</a>
-
-</div>
-
-<br/>
-
-<div align="center">
-
-### `Code → Build → Learn → Improve`
-
-<sub>Thanks for visiting my profile.</sub>
-
-</div>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=110&section=footer" width="100%"/>
+<p align="center">
+  <sub>Designed with code, curiosity, and a lot of debugging.</sub>
+</p>
