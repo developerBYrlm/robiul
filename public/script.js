@@ -30,18 +30,18 @@ document.addEventListener('DOMContentLoaded', () => {
     // ==================== 1. MOBILE NAVIGATION ====================
     const navbar = document.querySelector('.navbar');
     const hamburger = document.querySelector('.nav-toggle') || document.querySelector('.hamburger');
-    const navLinks = document.querySelector('.nav-links');
+    const navMenu = document.querySelector('.nav-menu');
     const links = document.querySelectorAll('.nav-links a');
 
-    if (hamburger && navLinks) {
+    if (hamburger && navMenu) {
         hamburger.addEventListener('click', () => {
-            navLinks.classList.toggle('active');
+            navMenu.classList.toggle('active');
             hamburger.classList.toggle('active');
         });
 
         links.forEach(link => {
             link.addEventListener('click', () => {
-                navLinks.classList.remove('active');
+                navMenu.classList.remove('active');
                 hamburger.classList.remove('active');
             });
         });
