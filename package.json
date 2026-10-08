@@ -1,0 +1,17 @@
+{
+  "name": "robiul-portfolio",
+  "version": "1.0.0",
+  "description": "Professional Portfolio - Md. Robiul Islam",
+  "main": "server.js",
+  "scripts": {
+    "RLM": "node server.js",
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": ["portfolio", "fullstack", "developer"],
+  "author": "Md. Robiul Islam",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
