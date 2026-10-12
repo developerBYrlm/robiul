@@ -31,18 +31,25 @@ document.addEventListener('DOMContentLoaded', () => {
     const navbar = document.querySelector('.navbar');
     const hamburger = document.querySelector('.nav-toggle') || document.querySelector('.hamburger');
     const navMenu = document.querySelector('.nav-menu');
+    const navClose = document.getElementById('nav-close');
     const links = document.querySelectorAll('.nav-links a');
 
     if (hamburger && navMenu) {
+        const closeNavMenu = () => {
+            navMenu.classList.remove('active');
+            hamburger.classList.remove('active');
+        };
+
         hamburger.addEventListener('click', () => {
             navMenu.classList.toggle('active');
             hamburger.classList.toggle('active');
         });
 
+        navClose?.addEventListener('click', closeNavMenu);
+
         links.forEach(link => {
             link.addEventListener('click', () => {
-                navMenu.classList.remove('active');
-                hamburger.classList.remove('active');
+                closeNavMenu();
             });
         });
     }
@@ -296,7 +303,207 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
-    // ==================== 8. PARTICLE BACKGROUND ====================
+    // ==================== 8. INTERACTIVE CLI TERMINAL ====================
+    const terminalBody = document.getElementById('terminal-body');
+    const terminalInput = document.getElementById('terminal-input');
+    const terminalChips = document.querySelectorAll('.term-chip');
+
+    if (terminalBody && terminalInput) {
+        // These responses intentionally live only in memory. Nothing is saved to a database.
+        // Each command has its own cursor, so repeated commands rotate through their own list.
+        const terminalResponses = {
+            help: [
+                'Available commands: whoami, skills, projects, contact, university, clear',
+                'Try a profile command: whoami, skills, projects, contact, university',
+                'Portfolio CLI ready. Use the quick commands above or type a command below.',
+                'Need a tour? Start with whoami, then explore skills and projects.',
+                'Command index loaded: profile, stack, work, contact, education, clear.',
+                'Tip: click any quick command to run it instantly in the terminal.',
+                'You can type commands manually too. Press Enter to execute one.',
+                'Available modules: identity, engineering skills, project work, contact, education.',
+                'All responses are generated from JavaScript arrays stored in this page session.',
+                'Interactive mode online. Pick a command and keep exploring the portfolio.'
+            ],
+            whoami: [
+                'Md. Robiul Islam — Full-Stack Developer & AI Automation Specialist.',
+                'Identity: Robiul Islam | Builder of full-stack systems and AI workflows.',
+                'Role detected: Full-Stack Engineer with a focus on AI automation.',
+                'Hello! I am Md. Robiul Islam, a developer who connects frontend, backend, and data.',
+                'Profile loaded: software engineer, systems thinker, and continuous learner.'
+            ],
+            skills: [
+                'Core stack: JavaScript, Python, C++, C, SQL.',
+                'Frontend: HTML5, CSS3, responsive UI, React.js, React Native.',
+                'Backend: Node.js, Express.js, REST APIs, GraphQL, FastAPI, Flask, Django.',
+                'Data & AI: MongoDB, PostgreSQL, MySQL, NumPy, Pandas, scikit-learn, LangChain.',
+                'Tooling: Git, GitHub, VS Code, Postman, Docker basics, and Linux.'
+            ],
+            projects: [
+                'Aegis AI — Autonomous Multi-Agent Workflow Orchestrator.',
+                'NexusMart — Scalable MERN e-commerce and inventory management system.',
+                'OmniVision — Python and scikit-learn data analytics intelligence suite.',
+                'DevPulse — High-throughput microservices API gateway with JWT authentication.',
+                'Project catalog ready: AI automation, MERN systems, analytics, and API engineering.'
+            ],
+            contact: [
+                'Email: robiulislam31122002@gmail.com',
+                'Best way to reach me: send an email or use the contact form below.',
+                'Open to opportunities, collaborations, and high-impact engineering projects.',
+                'Contact channel online: robiulislam31122002@gmail.com | Dhaka, Bangladesh.',
+                'Ready to discuss a product, automation workflow, or full-stack build.'
+            ],
+            university: [
+                'Northern University Bangladesh — Computer Science & Engineering.',
+                'Education: Computer Science & Engineering at Northern University Bangladesh.',
+                'Academic focus: algorithms, software design, databases, and distributed systems.',
+                'University profile loaded: Northern University Bangladesh.',
+                'CSE background active — combining strong fundamentals with practical systems work.'
+            ]
+        };
+
+        // Replace the first draft responses with more natural, AI-style replies.
+        // This is still session-only data: no response is written to a database.
+        Object.assign(terminalResponses, {
+            help: [
+                "I can guide you through Robiul's profile. Try whoami, skills, projects, contact, or university.",
+                "Command map ready: identity, technical stack, project work, contact details, and education.",
+                "Let's explore the portfolio. Start with whoami for context, then use skills or projects.",
+                "You can ask this terminal about the developer, his tools, his work, or how to get in touch.",
+                "I understand these commands: whoami, skills, projects, contact, university, and clear.",
+                "Profile navigation is active. Choose a quick command above or type one manually below.",
+                "For a technical overview, run skills. For proof of work, run projects. I'll summarize each area.",
+                "Need a human connection? Use contact. Want the academic context? Use university.",
+                "This assistant answers from the portfolio data available in the current page session.",
+                "How can I help? I can introduce Robiul, explain his stack, highlight projects, or share contact details."
+            ],
+            whoami: [
+                "Profile analysis complete: Md. Robiul Islam is a Full-Stack Developer and AI Automation Specialist.",
+                "Robiul builds complete systems, connecting polished interfaces with secure backends and useful data flows.",
+                "The profile points to a systems-minded engineer who enjoys turning complex requirements into practical products.",
+                "Identity confirmed: a CSE student and developer focused on full-stack engineering, AI workflows, and automation.",
+                "Robiul's development style is architecture-first: understand the problem, design the system, then ship the experience.",
+                "You are looking at a developer who works across frontend, backend, databases, APIs, and intelligent automation.",
+                "Professional focus detected: scalable web applications, autonomous AI workflows, and reliable backend systems.",
+                "In simple terms, Robiul likes building the whole solution rather than stopping at a single layer of the stack.",
+                "The portfolio describes a continuous learner who combines strong computer-science fundamentals with hands-on projects.",
+                "If you need someone who can connect product ideas to working software, Robiul's profile is built around that strength."
+            ],
+            skills: [
+                "Stack analysis complete: JavaScript and Python lead the development workflow, supported by C++, C, and SQL.",
+                "For interfaces, the toolkit includes semantic HTML, modern CSS, responsive design, React.js, and React Native.",
+                "For backend work, Robiul uses Node.js, Express, REST APIs, GraphQL, FastAPI, Flask, and Django.",
+                "The data layer includes MongoDB, PostgreSQL, MySQL, Supabase, Firebase, and practical SQL experience.",
+                "AI capability detected: automation, agentic workflows, generative AI APIs, LangChain, and tool calling.",
+                "Data work is supported by NumPy, Pandas, scikit-learn, predictive modeling, and analytics pipelines.",
+                "The engineering toolkit also includes Git, GitHub, VS Code, Postman, npm, Docker basics, and Linux.",
+                "A useful way to summarize the stack: modern UI plus dependable APIs, data storage, automation, and AI.",
+                "The strongest pattern is breadth with connection: frontend, backend, databases, and intelligent workflows working together.",
+                "Want to see the skills in context? Run projects next and I'll connect the tools to real product ideas."
+            ],
+            projects: [
+                "Project scan complete: Aegis AI is an autonomous multi-agent workflow orchestrator for connected business tasks.",
+                "NexusMart demonstrates MERN engineering through e-commerce, inventory management, authentication, and analytics.",
+                "OmniVision applies Python, Pandas, NumPy, and scikit-learn to data processing, prediction, and intelligence dashboards.",
+                "DevPulse focuses on backend architecture: API gateway design, JWT authentication, Redis sessions, and rate limiting.",
+                "Across the projects, the repeated theme is clear: automate useful work while keeping the system structured and reliable.",
+                "Aegis AI represents the AI direction; NexusMart represents scalable product engineering; OmniVision represents data intelligence.",
+                "The portfolio is not limited to demos. Each project is described around architecture, measurable behavior, and real use cases.",
+                "If you are evaluating range, the catalog covers AI automation, MERN applications, machine learning, and microservices.",
+                "The project portfolio suggests a builder who cares about both user experience and the systems operating behind it.",
+                "Recommendation: start with Aegis AI for the AI vision, then inspect DevPulse for the backend and architecture mindset."
+            ],
+            contact: [
+                "Contact route identified: email robiulislam31122002@gmail.com for a direct conversation.",
+                "If you have a project idea, share the problem, the desired outcome, and the current stage. Robiul can take it from there.",
+                "Robiul is open to opportunities, collaborations, and high-impact projects where thoughtful engineering matters.",
+                "The fastest connection is email. You can also use the contact form below to send a structured inquiry.",
+                "For a useful first message, include your name, project context, timeline, and what kind of technical help you need.",
+                "Location context: Dhaka, Bangladesh. Availability is oriented toward full-time roles and meaningful engineering work.",
+                "Looking for a full-stack build or AI automation workflow? This is a good time to start the conversation.",
+                "I found the primary contact channel in the profile: robiulislam31122002@gmail.com.",
+                "A concise brief is welcome. Explain what you want to improve, automate, or build, and Robiul can respond with direction.",
+                "Connection ready. Move to the Contact section or email directly when you are ready to discuss the next step."
+            ],
+            university: [
+                "Education context loaded: Northern University Bangladesh, Computer Science and Engineering.",
+                "The academic foundation includes algorithms, software design, databases, and distributed-systems thinking.",
+                "Robiul's university background supports the way he approaches software: reason about the system before writing the feature.",
+                "Computer Science and Engineering provides the fundamentals behind his work in web systems, APIs, and automation.",
+                "The academic path and the project path reinforce each other: theory informs the architecture, and projects test the ideas.",
+                "University profile confirmed: Northern University Bangladesh, with a focus on practical computer-science development.",
+                "The CSE background helps connect low-level reasoning, data structures, software patterns, and modern application engineering.",
+                "Rather than treating education and projects separately, Robiul uses both to build a stronger engineering perspective.",
+                "Academic signal detected: curiosity about how systems work, plus the discipline to turn that understanding into software.",
+                "Education summary complete. Northern University Bangladesh is the foundation; full-stack and AI projects are the application."
+            ]
+        });
+
+        const terminalResponseIndexes = Object.fromEntries(
+            Object.keys(terminalResponses).map(command => [command, 0])
+        );
+
+        const getNextTerminalResponse = (command) => {
+            const responses = terminalResponses[command];
+            if (!responses || responses.length === 0) return `Command not found: ${command}`;
+
+            const currentIndex = terminalResponseIndexes[command] || 0;
+            const response = responses[currentIndex % responses.length];
+            terminalResponseIndexes[command] = currentIndex + 1;
+            return response;
+        };
+
+        const appendTerminalLine = (command, result) => {
+            const line = document.createElement('div');
+            line.className = 'term-line';
+
+            const commandEcho = document.createElement('div');
+            commandEcho.className = 'term-cmd-echo';
+            commandEcho.textContent = `robiul@dev:~$ ${command}`;
+
+            const commandResult = document.createElement('div');
+            commandResult.className = 'term-cmd-result';
+            commandResult.textContent = result;
+
+            line.append(commandEcho, commandResult);
+            terminalBody.appendChild(line);
+            terminalBody.scrollTop = terminalBody.scrollHeight;
+        };
+
+        const clearTerminal = () => {
+            terminalBody.replaceChildren();
+            terminalInput.focus();
+        };
+
+        const executeTerminalCommand = (rawCommand) => {
+            const command = rawCommand.trim().toLowerCase();
+            if (!command) return;
+
+            terminalInput.value = '';
+
+            if (command === 'clear' || command === 'cls') {
+                clearTerminal();
+                return;
+            }
+
+            appendTerminalLine(command, getNextTerminalResponse(command));
+            terminalInput.focus();
+        };
+
+        terminalChips.forEach(chip => {
+            chip.addEventListener('click', () => {
+                executeTerminalCommand(chip.dataset.cmd || chip.textContent);
+            });
+        });
+
+        terminalInput.addEventListener('keydown', event => {
+            if (event.key === 'Enter') {
+                event.preventDefault();
+                executeTerminalCommand(terminalInput.value);
+            }
+        });
+    }
+
+    // ==================== 9. PARTICLE BACKGROUND ====================
     const canvas = document.getElementById('particles-canvas');
     if (canvas) {
         const ctx = canvas.getContext('2d');
@@ -372,13 +579,13 @@ document.addEventListener('DOMContentLoaded', () => {
         animateParticles();
     }
 
-    // ==================== 9. DYNAMIC YEAR ====================
+    // ==================== 10. DYNAMIC YEAR ====================
     const yearElement = document.getElementById('current-year');
     if (yearElement) {
         yearElement.textContent = new Date().getFullYear();
     }
 
-    // ==================== 10. PAGE LOAD ANIMATIONS ====================
+    // ==================== 11. PAGE LOAD ANIMATIONS ====================
     setTimeout(() => {
         document.body.classList.add('loaded');
         const heroElements = document.querySelectorAll('.hero-animate');
@@ -389,7 +596,7 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }, 200);
 
-    // ==================== 11. TILT EFFECT ON CARDS ====================
+    // ==================== 12. TILT EFFECT ON CARDS ====================
     if (window.matchMedia("(hover: hover)").matches) {
         const tiltCards = document.querySelectorAll('.service-card, .skill-card, .explore-card');
         tiltCards.forEach(card => {
