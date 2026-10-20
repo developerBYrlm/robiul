@@ -218,15 +218,6 @@ currently_exploring = {
 
 ---
 
-## 📊 GitHub Analytics
-
-<p align="center">
-  <a href="https://github.com/YOUR-GITHUB-USERNAME">
-    <img src="https://github-readme-stats.vercel.app/api?username=YOUR-GITHUB-USERNAME&show_icons=true&theme=tokyonight&hide_border=true" alt="Robiul's GitHub stats" />
-  </a>
-</p>
-
----
 
 ## 🤝 Connect With Me
 
